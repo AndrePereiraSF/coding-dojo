@@ -13,7 +13,7 @@ Para utilizar o GitHub e ter total acesso aos arquivos, você deve primeiramente
 **Mas lembrando que, caso você prefira, pode naturalmente fazer o download dos arquivos em .zip clicando no botão verde do lado esquerdo da tela.**
  
  
-## 1. Instalando o git
+## 1. Instalando o git:octocat:
 
 ### Windows 🖥
 Basta entrar [neste link](https://git-scm.com/download/win) e o download iniciará automaticamente, com o instalador do git em mãos não terá dificuldade, basta abri-ló e sair clicando em *```next```*.
@@ -30,7 +30,7 @@ Pronto! Agora o git está instalado no seu computador.
 Caso você não utilize uma distro debian-based, basta seguir [este link](https://git-scm.com/download/linux) e encontrar as instruções para a sua distro.
 
 
-## 2. Utilizando o git
+## 2. Utilizando o git:octocat:
 
 ### Windows 🖥
 
