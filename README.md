@@ -18,6 +18,8 @@ Para utilizar o GitHub e ter total acesso aos arquivos, você deve primeiramente
 ### Windows 🖥
 Basta entrar [neste link](https://git-scm.com/download/win) e o download iniciará automaticamente, com o instalador do git em mãos não terá dificuldade, basta abri-ló e sair clicando em *```next```*.
 
+Para saber se a instalação foi um sucesso, basta clicar com o botão direito do mouse em qualquer local e aparecerá o **GIT GUI** e o **GIT BASH**, com isso sua instalação foi um sucesso.
+
 ### Linux 🐧
 No ambiente Linux é tão simples quanto no Windows. Se sua distro é debian-based (Distros baseadas no Debian, como Ubuntu e Deepin) basta executar o seguinte comando no terminal:
 ```
@@ -32,13 +34,27 @@ Caso você não utilize uma distro debian-based, basta seguir [este link](https:
 
 ### Windows 🖥
 
--------------------------------------------------------
--------------------------------------------------------
--------------------------------------------------------
--------------------------------------------------------
--------------------------------------------------------
--------------------------------------------------------
--------------------------------------------------------
+#### Parte 1: 
+
+Após a instalação ter sido um sucesso, você deverá criar ou ir na pasta onde deseja clonar o repositório(caso já tenha clonado, pule para a segunda parte), dentra desta pasta, você deve clicar com o botão direito e selecionar o **git bash**.
+
+Dentro do terminal do **git bash** você deve colocar o comando que irá clonar o repositório:
+```
+$ git clone https://github.com/andre1126/CodingDojo.git
+```
+Se a clonagem tiver sido um sucesso, no diretório selecionado deverá aparecer uma pasta com os códigos, você também pode digitar um ```ls``` no terminal para conferir se a pasta está no diretório ou se na ultima linha do terminal estiver o seguinte comando:
+```
+Unpacking objects: 100% (??/??), done.
+```
+#### Parte 2:
+
+Após ter um clone do repositório no seu computador, para não precisar ficar clonando sempre que surgir algo novo, iremos apenas atualizar o repositório existente em sua máquina, primeiramente vamos na pasta onde está o repositório e abrimeros novamente o **git bash** com o botão direito do mouse
+
+É possível atualizar sua pasta com o seguinte comando:
+```
+$ git pull https://github.com/lenossa/lenossamake.git master
+```
+
 
 ### Linux 🐧
 
