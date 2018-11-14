@@ -52,7 +52,7 @@ Após ter um clone do repositório no seu computador, para não precisar ficar c
 
 É possível atualizar sua pasta com o seguinte comando:
 ```
-$ git pull https://github.com/lenossa/lenossamake.git master
+$ git pull https://github.com/andre1126/CodingDojo.git master
 ```
 
 
