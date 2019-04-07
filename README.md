@@ -52,7 +52,7 @@ Após ter um clone do repositório no seu computador, para não precisar ficar c
 
 É possível atualizar sua pasta com o seguinte comando:
 ```
-$ git pull https://github.com/andre1126/CodingDojo.git master
+$ git pull
 ```
 
 
@@ -60,23 +60,18 @@ $ git pull https://github.com/andre1126/CodingDojo.git master
 
 Diferente do Windows, no ambiente Linux podemos executar os comandos do git diretamente pelo terminal, então não perca tempo e abra o terminal em seu computador.
 
-Primeiro temos que clonar o repositório em alguma pasta do seu sistema. Recomendamos que use uma pasta vazia, portanto, você pode criar uma usando o comando:
+Primeiro temos que clonar o repositório em alguma diretório do seu sistema. Ao clonar, será criado um diretório com o nome do repositório, portanto, navegue até uma pasta de fácil acesso. No meu caso, utilizei a pasta Documentos:
 ```
-$ sudo mkdir nome-da-pasta
+$ cd ~/Documentos/
 ```
-Agora, navegue até a pasta com o comando:
-```
-$ cd nome-da-pasta
-```
-Já dentro da pasta vazia, você deve executar somente:
+Agora, vamos devemos executar o comando para clonar:
 ```
 $ sudo git clone https://github.com/andre1126/CodingDojo.git
 ```
-O processo de clonagem deve acabar logo, e com o comando ```ls``` você pode checar se todos os arquivos estão na sua pasta.
-Pronto! Agora você tem uma cópia dos arquivos em seu computador, toda vez que precisar atualizar a pasta com novos arquivos, é só acessá-la via terminal e executar o seguinte comando:
+O processo de clonagem deve acabar logo, e com o comando ```cd CodingDojo && ls``` você pode checar se todos os arquivos estão na sua pasta. Pronto! Agora você tem uma cópia dos arquivos em seu computador, toda vez que precisar atualizar a pasta com novos arquivos, é só acessá-la via terminal e executar o seguinte comando:
 
 ```
-$ git pull https://github.com/andre1126/CodingDojo.git master
+$ git pull
 ```
 
 Feito! Agora toda vez que um novo problema for "commitado" neste repositório, você só precisa executar esse último comando, evitando de ter que clonar os arquivos várias e várias vezes.
