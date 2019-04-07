@@ -40,7 +40,7 @@ Após a instalação ter sido um sucesso, você deverá criar ou ir na pasta ond
 
 Dentro do terminal do **git bash** você deve colocar o comando que irá clonar o repositório:
 ```
-$ git clone https://github.com/andre1126/CodingDojo.git
+$ git clone https://github.com/andre1126/coding-dojo.git
 ```
 Se a clonagem tiver sido um sucesso, no diretório selecionado deverá aparecer uma pasta com os códigos, você também pode digitar um ```ls``` no terminal para conferir se a pasta está no diretório ou se na ultima linha do terminal estiver o seguinte comando:
 ```
@@ -66,9 +66,9 @@ $ cd ~/Documentos/
 ```
 Agora, vamos devemos executar o comando para clonar:
 ```
-$ sudo git clone https://github.com/andre1126/CodingDojo.git
+$ sudo git clone https://github.com/andre1126/coding-dojo.git
 ```
-O processo de clonagem deve acabar logo, e com o comando ```cd CodingDojo && ls``` você pode checar se todos os arquivos estão na sua pasta. Pronto! Agora você tem uma cópia dos arquivos em seu computador, toda vez que precisar atualizar a pasta com novos arquivos, é só acessá-la via terminal e executar o seguinte comando:
+O processo de clonagem deve acabar logo, e com o comando ```cd coding-dojo && ls``` você pode checar se todos os arquivos estão na sua pasta. Pronto! Agora você tem uma cópia dos arquivos em seu computador, toda vez que precisar atualizar a pasta com novos arquivos, é só acessá-la via terminal e executar o seguinte comando:
 
 ```
 $ git pull
