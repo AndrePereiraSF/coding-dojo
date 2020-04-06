@@ -1,4 +1,4 @@
-# CodingDojo - EM HIATO 💀
+# CodingDojo - DESCONTINUADO 💀
 #### Este Repositório foi feito para compartilhar problemas resolvidos no Coding Dojo da FJN, uma iniciativa de [André Pereira](https://github.com/AndrePereiraSF) e [Levi Bastos](https://github.com/LeviBastosLima). Sinta-se livre para acessar as soluções, elas serão "commitadas" semanalmente. 
 
 #### Todas serão escritas em Java (JDK 8), utilizando a IDE Eclipse Photon. ☕
